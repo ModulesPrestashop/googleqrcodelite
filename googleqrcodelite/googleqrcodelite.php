@@ -57,7 +57,7 @@ class GoogleQrCodeLite extends Module
 		return true;
 	}
 
-	function hookExtraRight($params)
+	function hookDisplayExtraRight($params)
 	{
 		return $this->display(__FILE__, $this->name.'.tpl');
 	}
